@@ -10,6 +10,7 @@ set(headers
         imstb_truetype.h
         backends/imgui_impl_glfw.h
         backends/imgui_impl_opengl3.h
+        misc/cpp/imgui_stdlib.h
 )
 
 set(sources
@@ -20,6 +21,7 @@ set(sources
         imgui_widgets.cpp
         backends/imgui_impl_glfw.cpp
         backends/imgui_impl_opengl3.cpp
+        misc/cpp/imgui_stdlib.cpp
 )
 
 add_library(ImGui STATIC ${headers} ${sources})
